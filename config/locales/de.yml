@@ -4,7 +4,7 @@ de:
   label_template: "Vorlagen"
   label_template_new: "Neue Wiki Vorlage"
   label_choose_template: "Vorlage auswählen"
-  label_load_template: "Last"
+  label_load_template: "Laden"
   text_confirm_load_template: "Der Inhalt wird durch die Vorlage des Textes ersetzt werden. sicher?"
   text_notify_success_of_loading: "durchgeführt"
   text_notify_failure_of_loading: "Fehler: %{status}"

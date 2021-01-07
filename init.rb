@@ -3,7 +3,7 @@ require 'wiki_templates_application_hooks'
 
 Rails.configuration.to_prepare do
   require_dependency 'projects_helper'
-  ProjectsHelper.send(:include, WikiTemplatesProjectsHelperPatch)
+  WikiTemplatesProjectsHelperPatch::ProjectSettingsTabs.apply
 end
 
 Redmine::Plugin.register :redmine_wiki_templates do
